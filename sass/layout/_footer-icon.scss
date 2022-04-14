@@ -1,0 +1,30 @@
+.footer-icon {
+    align-items: baseline;
+}
+
+.footer-icon__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primari-white-color);
+}
+
+.footer-icon__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-icon__link {
+    background: rgba(255, 255, 255, 0.1);
+    fill: #FFFFFF;
+
+   &:hover,
+   &:focus {
+        background-color: #2196F3;
+    }
+}
+

@@ -1,0 +1,45 @@
+.footer-form {
+    display: flex;
+    margin-left: 93px;
+    align-items: flex-end;
+}
+
+.footer-form__field {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form__ladel {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    margin-bottom: 20px;
+}
+
+.footer-form__mail {
+    width: 358px;
+    height: 50px;
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: transparent;
+    margin-right: 12px;
+
+    padding: 15px 0 15px 16px;
+}
+
+.footer-form__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-form__icon {
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
